@@ -17,7 +17,10 @@ bool ultimoSinal = false;
 void loop() {
   
   if( millis() - timer > 4000 ){
+    Serial.println("#########################################################");
     SerialBT.printf("%d bpm\r\n", count * 15);
+    Serial.printf("%d bpm\r\n", count * 15);
+    Serial.println("#########################################################");
     count = 0;
     timer = millis();
   }else{
