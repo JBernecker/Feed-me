@@ -7,6 +7,12 @@ void main() => runApp(new ExampleApplication());
 class ExampleApplication extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: MainPage());
+    return MaterialApp(
+      //home: MainPage(),
+      routes: {
+        "/": (context) => MainPage(),
+        "login": (context) => login(),
+      },
+    );
   }
 }
