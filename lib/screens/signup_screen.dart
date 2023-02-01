@@ -1,24 +1,27 @@
-import 'package:feed_me/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:feed_me/widgets/text_field_input.dart';
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
+import '../utils/colors.dart';
+import '../widgets/text_field_input.dart';
+
+class SignUpScreen extends StatefulWidget {
+  const SignUpScreen({super.key});
 
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  State<SignUpScreen> createState() => _SignUpScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _SignUpScreenState extends State<SignUpScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _usernameController = TextEditingController();
 
   @override
   void dispose() {
     super.dispose();
     _emailController.dispose();
     _passwordController.dispose();
+    _usernameController.dispose();
   }
 
   @override
@@ -52,6 +55,14 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 24,
               ),
               TextFieldInput(
+                hintText: 'Enter your username',
+                textInputType: TextInputType.text,
+                textEditingController: _usernameController,
+              ), //caixa de entrada do email
+              const SizedBox(
+                height: 24,
+              ),
+              TextFieldInput(
                 hintText: 'Enter your password',
                 textInputType: TextInputType.text,
                 textEditingController: _passwordController,
@@ -63,7 +74,7 @@ class _LoginScreenState extends State<LoginScreen> {
               InkWell(
                 onTap: () {},
                 child: Container(
-                  child: const Text("Sign In"),
+                  child: const Text("Sign Up"),
                   width: double.infinity,
                   alignment: Alignment.center,
                   padding: const EdgeInsets.symmetric(vertical: 12),
@@ -80,20 +91,6 @@ class _LoginScreenState extends State<LoginScreen> {
               const SizedBox(
                 height: 12,
               ),
-              Container(
-                child: const Text(
-                  "Forgot Password?",
-                  style: TextStyle(
-                    color: secondaryColor,
-                  ),
-                ),
-                width: double.infinity,
-                alignment: Alignment.center,
-                padding: const EdgeInsets.symmetric(vertical: 12),
-              ),
-              const SizedBox(
-                height: 12,
-              ),
               Flexible(
                 child: Container(),
                 flex: 2,
@@ -103,7 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 children: [
                   Container(
                     child: const Text(
-                      "Don't have an account?",
+                      "Already have an account?",
                       style: TextStyle(
                         color: primaryColor,
                       ),
@@ -116,7 +113,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     onTap: (() {}),
                     child: Container(
                       child: const Text(
-                        " Sign Up.",
+                        " Sign In.",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: secondaryColor,
