@@ -23,7 +23,7 @@ Para definir como marcar um batimento cardíaco foi determinado um Threshold de 
 - Spoonacular API
 
 # Pré Requisitos:
-- ESP 32 deckit
+- ESP 32 devkit
 - Heart Rate Sensor 
 - Cabo USB
 - Aplicação Móvel Desenvolvida em Flutter
