@@ -25,6 +25,7 @@ Para definir como marcar um batimento cardíaco foi determinado um Threshold de 
 - ESP 32 devkit R$ 50,00 
 - Heart Rate Sensor R$ 20,00 
 - Bateria Samsung 22p original R$ 70,00
+- Material PLA para impressão case R$ 45,00
 - Aplicação Móvel Desenvolvida em Flutter
   
 # Esquema
