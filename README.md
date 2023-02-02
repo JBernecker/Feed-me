@@ -1,7 +1,8 @@
 # FeedMe
 
-# Sobre o projeto
+# Sobre
 Projeto IOT desenvolvido através do programa de Férias Fit|Flex-Sorocaba/SP.
+
   Feed.me foi idealizado baseado no segmento da saúde, para oferecer propostas de uma alimentação saudável visando a promoção da saúde do indivíduo.
   
    A aplicação consiste em uma pesquisa para coletar dados se baseando no gasto energético diário do indivíduo, para realizar essa tarefa foi desenvolvido um firmware no microcontrolador ESP 32 conectado ao sensor Heart Beat Rate para medir os batimentos cardiacos, simulando um smartwatch.
