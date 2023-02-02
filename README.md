@@ -63,6 +63,6 @@ git clone https://github.com/JBernecker/Feed-me.git
 3- Os dados de batimentos cardíacos serão exibidos em tempo real na aplicação móvel
 
 # Releases Futuras
-
- Os dados da informação nutricional dos alimentos serão coletados através da API spoonacular ( mais informações disponível em https://spoonacular.com/food-api), armazenado no Firebase em cloud, e então exibido no aplicativo Feed.me. Em conjunto com as informações coletadas do usuário, será desenvolvido um algorítimo baseado na literatura para cálculo do gasto energético basal, onde será fornecida a informação sobre o quanto o indivíduo gasta de energia em Kcal quando está em estado de repouso, para que ofereça um norteamento da montagem de um cardápio que supra suas necessidades nutricionais.
-Os dados da frequencia cardíaca serão inseridos em um cálculo para indicar a faixa de queima de gordura que um indivíduo pode alcançar de acordo com a atividade realizada no momento
+Os dados registrados pelo usuário serão armazenados no firebase em cloud.
+Os dados da informação nutricional dos alimentos serão coletados através da API spoonacular (mais informações estão disponíveis em https://spoonacular.com/food-api).  Em conjunto com as informações coletadas do usuário, será desenvolvido um algorítimo baseado na literatura para cálculo do gasto energético basal, onde será fornecida a informação sobre o quanto o indivíduo gasta de energia em Kcal quando está em estado de repouso, para que ofereça um norteamento da montagem de um cardápio que supra suas necessidades nutricionais.
+Os dados da frequencia cardíaca serão inseridos em um cálculo para indicar a faixa de queima de gordura que um indivíduo pode alcançar de acordo com a atividade realizada no momento.
