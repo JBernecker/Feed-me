@@ -36,7 +36,7 @@ Para definir como marcar um batimento cardíaco foi determinado um Threshold de 
 # Instalação
 1- Clone este repositório para sua máquina local
 shell
-git clone
+git clone https://github.com/JBernecker/Feed-me.git
 
 2- Abra o projeto no seu ambiente de desenvolvimento Arduino (IDE)
 
@@ -61,6 +61,3 @@ git clone
 2- Inicie a conexão Bluetooth entre o ESP32 e o dispositivo movel
 
 3- Os dados de batimentos cardíacos serão exibidos em tempo real na aplicação móvel
-
-# Licença
-Este projeto está sob a licença MIT - consulte o arquivo Licence.md para obter mais detalhes.
