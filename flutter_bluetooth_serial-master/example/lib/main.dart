@@ -8,11 +8,10 @@ class ExampleApplication extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      //home: MainPage(),
-      routes: {
-        "/": (context) => MainPage(),
-        "login": (context) => Login(),
-      },
+      home: MainPage(),
+      //routes: {
+      //"/": (context) => MainPage(),
+      // "login": (context) => Login(),
     );
   }
 }
