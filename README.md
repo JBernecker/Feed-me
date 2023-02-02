@@ -16,7 +16,6 @@ Para definir como marcar um batimento cardíaco foi determinado um Threshold de 
 # Tecnologias utilizadas:
 - Linguagem Dart
 - Framework Flutter
-- Banco de dados Firebase
 
 # Pré Requisitos:
 <div align="center">
@@ -35,7 +34,7 @@ Para definir como marcar um batimento cardíaco foi determinado um Threshold de 
  
 # Instalação
 1- Clone este repositório para sua máquina local
-shell
+
 git clone https://github.com/JBernecker/Feed-me.git
 
 2- Abra o projeto no seu ambiente de desenvolvimento Arduino (IDE)
