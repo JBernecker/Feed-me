@@ -1,0 +1,2 @@
+soma os intervalos, tira uma média de tempo dos intervalos, quantos milisegundos tem entre cada pulso
+então resultando na frequencia cardiaca
