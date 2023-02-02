@@ -1,5 +1,4 @@
-# fit
-# Feed.me
+# FeedMe
 
 # Sobre o projeto
 Projeto IOT desenvolvido através do programa de Férias Fit|Flex-Sorocaba/SP.
