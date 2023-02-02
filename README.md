@@ -39,19 +39,28 @@ shell
 git clone
 
 2- Abra o projeto no seu ambiente de desenvolvimento Arduino (IDE)
+
 3- Conecte o ESP32 a sua máquina através do cabo USB
+
 4- Selecione o modelo correto de ESP32 na IDE (ferramentas > placa)
+
 5- Carregue o codigo fonte para o ESP32 (botão de upload)
 
 # Ligando o Sensor
+
 1- Conecte a saída analógica do sensor no pino GPIO 4 do ESP32
+
 2- Conecte a alimentação do sensor (3v3) ao pino 3.3V do ESP32
+
 3- Conecte o GND do sensorao GND do ESP32
 
 # Uso
+
 1- Inicie a aplicação móvel desenvolvida em Flutter
+
 2- Inicie a conexão Bluetooth entre o ESP32 e o dispositivo movel
-3-Os dados de batimentos cardíacos serão exibidos em tempo real na aplicação móvel
+
+3- Os dados de batimentos cardíacos serão exibidos em tempo real na aplicação móvel
 
 # Licença
 Este projeto está sob a licença MIT - consulte o arquivo Licence.md para obter mais detalhes.
