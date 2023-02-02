@@ -17,7 +17,7 @@ Para definir como marcar um batimento cardíaco foi determinado um Threshold de 
 - Linguagem Dart
 - Framework Flutter
 
-# Pré Requisitos:
+# Componentes
 <div align="center">
   <img width= "411" alt="IMG_20230202_113442" src="https://user-images.githubusercontent.com/91417907/216375722-daf4b0b0-6d82-41f4-a413-68a425de41b7.jpg">
 </div>
