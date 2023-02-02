@@ -388,12 +388,12 @@ class menu extends StatelessWidget {
   }
 }
 
-class login extends StatefulWidget {
+class Login extends StatefulWidget {
   @override
-  State<login> createState() => _loginState();
+  State<Login> createState() => _LoginState();
 }
 
-class _loginState extends State<login> {
+class _LoginState extends State<Login> {
 // Pegando informações do TextField
   final TextEditingController _controllerNome = TextEditingController();
   final TextEditingController _controllerSenha = TextEditingController();
@@ -404,13 +404,12 @@ class _loginState extends State<login> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          //Padding(padding: EdgeInsets.all(5)),
+          Padding(padding: EdgeInsets.all(5)),
           Container(
             height: 200,
             width: 200,
             child: Image.asset("assets/image/logo_feedme.png"),
           ),
-
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
             child: TextFormField(
