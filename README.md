@@ -13,7 +13,7 @@ Projeto IOT desenvolvido através do programa de Férias Fit|Flex-Sorocaba/SP.
 - Linguagem Dart
 - Framework Flutter
 - Banco de dados Firebase
-- spoonacular API
+- Spoonacular API
 
 # Pré Requisitos:
 - ESP 32 deckit
