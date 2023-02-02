@@ -3,7 +3,7 @@
 # Sobre
 Projeto IOT desenvolvido através do programa de Férias Fit|Flex-Sorocaba/SP.
 
-  Feed.me foi idealizado baseado no segmento da saúde, para oferecer propostas baseando-se em uma alimentação saudável visando a promoção da saúde do indivíduo.
+  Feed.me foi idealizado baseado no segmento da saúde com objetivo de oferecer propostas baseando-se em uma alimentação saudável a fim de se obter a promoção da saúde.
   
    A aplicação consiste em uma pesquisa para coletar dados se baseando no gasto energético diário do indivíduo, para realizar essa tarefa foi desenvolvido um firmware no microcontrolador ESP 32 conectado ao sensor Heart Beat Rate para medir os batimentos cardiacos, simulando um smartwatch.
   Os dados da informação nutricional dos alimentos são coletados através da API spoonacular ( mais informações disponível em https://spoonacular.com/food-api), armazenado no Firebase em cloud, e então exibido no aplicativo Feed.me. Em conjunto com as informações coletadas do usuário, foi desenvolvido um algorítimo baseado na literatura para cálculo do gasto energético basal, onde é fornecida a informação sobre o quanto o indivíduo gasta de energia em Kcal quando está em estado de repouso, para que ofereça um norteamento da montagem de um cardápio que supra suas necessidades.
